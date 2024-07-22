@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web</title>
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/script.js"></script>
+    
+</head>
+<body>
+    <div class="main-container">
+    <header>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Nuestro Producto</a>
+            <a href="#">Portafolio</a>
+            <a href="#">Servicio</a>
+            <a href="#">Contacto</a>
+        </nav>
+        <section class="textos-header">
+            
+            
+            <img src="img/komako.png" alt="" class="imagen-komako">
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Nuestro producto</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/ilustracion1-1.PNG" alt="" class="imagen-anout-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>Makis Frescos y Deliciosos:</h3>
+                    <p>Elaborados con ingredientes de alta calidad, nuestros makis ofrecen un sabor auténtico y exquisito en cada bocado. Cada rollo se prepara cuidadosamente para garantizar frescura y sabor en cada pieza.</p>
+                    <h3><span>2</span>Variedad y Creatividad:</h3>
+                    <p>Ofrecemos una amplia gama de makis, desde los clásicos hasta nuestras creaciones exclusivas. Descubre combinaciones únicas que fusionan lo tradicional con lo innovador, diseñadas para deleitar todos los paladares.</p>
+                </div>
+        </section>
+        <section class="Portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Menu</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/imgP1.PNG" alt="Sushi 1" onclick="openModal('modal1')">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                   
+                    <div class="imagen-port">
+                        <img src="img/imgP2.PNG" alt="Sushi 2" onclick="openModal('modal2')">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/imgP3.PNG" alt="Sushi 3" onclick="openModal('modal3')">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/imgP4.PNG" alt="Sushi 4" onclick="openModal('modal4')">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/imgP5.PNG" alt="Sushi 5" onclick="openModal('modal5')">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/imgP6.PNG" alt="Sushi 6" onclick="openModal('modal6')">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/imgP7.PNG" alt="Sushi 7" onclick="openModal('modal7')">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/imgP8.PNG" alt="Sushi 8" onclick="openModal('modal7')">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </section>
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal1')">&times;</span>
+                <img src="img/icono1.png" alt="">
+                <p>Descripción del trabajo 1</p>
+            </div>
+        </div>
+        
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal2')">&times;</span>
+                <img src="img/imgP2.PNG" alt="Imagen 2">
+                <p>Descripción del trabajo 2</p>
+            </div>
+        </div>
+        
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal3')">&times;</span>
+                <img src="img/imgP3.PNG" alt="Imagen 3">
+                <p>Descripción del trabajo 3</p>
+            </div>
+        </div>
+        
+        <div id="modal4" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal4')">&times;</span>
+                <img src="img/imgP4.PNG" alt="Imagen 4">
+                <p>Descripción del trabajo 4</p>
+            </div>
+        </div>
+        
+        <div id="modal5" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal5')">&times;</span>
+                <img src="img/imgP5.PNG" alt="Imagen 5">
+                <p>Descripción del trabajo 5</p>
+            </div>
+        </div>
+        
+        <div id="modal6" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal6')">&times;</span>
+                <img src="img/imgP6.PNG" alt="Imagen 6">
+                <p>Descripción del trabajo 6</p>
+            </div>
+        </div>
+        
+        <div id="modal7" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal7')">&times;</span>
+                <img src="img/imgP7.PNG" alt="Imagen 7">
+                <p>Descripción del trabajo 7</p>
+            </div>
+        </div>
+        
+        <div id="modal8" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal8')">&times;</span>
+                <img src="img/imgP8.PNG" alt="Imagen 8">
+                <p>Descripción del trabajo 8</p>
+            </div>
+        </div>
+        <section class="clientes contenedor">
+            <h2 class="titulo">Que dicen nuestros clientes</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/face1.jpg" alt="">
+                    <div class="contenido-texto-card">
+                    <h4>Josue Rodriguez</h4>
+                    <p>¡Increíble experiencia! El ambiente es acogedor y moderno, perfecto para disfrutar de unos makis deliciosos y frescos. El servicio es excelente y atento, y el bar de sake añade un toque especial. ¡Definitivamente volveré!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/face2.jpg" alt="">
+                    <div class="contenido-texto-card">
+                    <h4>Alejandra Garcia</h4>
+                    <p>¡Excelente elección! Los makis son frescos y deliciosos, y el ambiente moderno y acogedor crea la atmósfera perfecta. El servicio es atento y amable. ¡Definitivamente regresaré!
+
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestros servicios</h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="img/ilustracionS1.jpg" alt="">
+                        <h3>Delivery</h3>
+                        <p>Ofrecemos delivery de entrega rapida y gratuita a todo chosica</p>
+                    </div>
+                    <div class="servicio-ind" alt="">
+                        <img src="img/ilustracionS2.PNG" alt="">
+                        <h3>Ambiente agradable</h3>
+                        <p>Contamos con un local posicionado cerca del parque central de chosica contamos con un ambiente muy agradable para que tengan una buena experiencia</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/ilustracionS3.PNG" alt="">
+                        <h3>Cocineros experimentados</h3>
+                        <p>Tenemos cocineros que les hara disfrutar de unos delicios makis con mucha experiencia en este tipo de comida.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+<div class="container">
+    <header>
+        <div class="logo">
+            <img src="img/komako.png" alt="Homeslice Pizza Logo">
+        </div>
+    </header>
+    <main>
+        <section class="contact">
+            <h2>Contactanos</h2>
+            <address>
+                ᴊʀ. ᴀʀɪᴄᴀ 240, 𝗖𝗵𝗼𝘀𝗶𝗰𝗮<br>
+                Telefono: 992567489
+            </address>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Asunto</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+</div>
+<script src="scripts.js"></script>
+</body>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p>992567489</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>komakai.sushibar@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Location</h4>
+                <p>ᴊʀ. ᴀʀɪᴄᴀ 240, 𝗖𝗵𝗼𝘀𝗶𝗰𝗮</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Komakai</h2>
+    </footer>
+  
+</body>
+</html>
